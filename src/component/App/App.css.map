@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACAA,mBAAmB;AAanB,kBAAkB;ADXlB,AAAA,IAAI,CAAC;EACH,WAAW,ECWD,UAAU;CDVrB;;AACD,AAAA,GAAG,CAAC;EACF,UAAU,EAAE,sBAAsB,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAAE,KAAI,EAAE,kBAAkB,CAAC,GAAG,CAAC,IAAI,CAAC,IAAI,CAAE,KAAI;CAChG",
+    "sources": [
+        "App.scss",
+        "../../_colors.scss"
+    ],
+    "names": [],
+    "file": "App.css"
+}

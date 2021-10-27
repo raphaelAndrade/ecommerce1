@@ -1,0 +1,85 @@
+/* Color Palette */
+/* Font Palette */
+.mainContainer {
+  font-family: sans-serif;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 5% 0;
+  padding: 1.5rem;
+}
+
+.mainContainer .imgContainer {
+  width: 50%;
+}
+
+.mainContainer img {
+  height: auto;
+  width: 600px;
+  margin-right: 3rem;
+}
+
+.mainContainer .detailsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  padding: 0 1.5rem;
+}
+
+.mainContainer .detailsContainer h2 {
+  font-family: serif;
+  color: #005b90;
+}
+
+.mainContainer .detailsContainer h2:hover {
+  color: #056420;
+}
+
+.mainContainer .detailsContainer p {
+  font-size: 0.8rem;
+}
+
+.mainContainer .detailsContainer h5 {
+  font-weight: bold;
+  padding: 1.5rem 0;
+}
+
+.mainContainer .detailsContainer h6 {
+  font-size: 0.9rem;
+}
+
+.mainContainer .detailsContainer button {
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 0.9rem;
+  padding: 8px 24px;
+  border: 1px solid transparent;
+  margin-bottom: 2.5rem;
+}
+
+.mainContainer .detailsContainer button:hover {
+  background-color: #056420;
+}
+
+.mainContainer .detailsContainer .description {
+  background-color: #f0f0f0;
+  padding: 1.5rem 2rem;
+}
+
+.mainContainer .detailsContainer span {
+  font-size: 0.9rem;
+  color: #757575;
+}
+
+.mainContainer .detailsContainer p {
+  margin-top: 1rem;
+}
+/*# sourceMappingURL=ProductDetail.css.map */

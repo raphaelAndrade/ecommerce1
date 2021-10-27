@@ -1,0 +1,105 @@
+@import "../../colors";
+
+.loginContainer {
+  min-height: 90vh;
+  //padding-top: 60px;
+  /* After logged in */
+  .welcome {
+    font-family: $sub-font;
+    margin: 1rem 0;
+    text-align: center;
+    span {
+      color: $accent;
+    }
+  }
+  .btnDiv {
+    display: flex;
+    justify-content: center;
+    width: 20vw;
+    margin: auto;
+    .logOutBtn,
+    .goToHomeBtn {
+      display: block;
+      text-decoration: none;
+      text-align: center;
+      padding: 0.5rem;
+      color: $white;
+      background-color: $primary-color;
+      outline: none;
+      border: none;
+      border-radius: unset;
+      margin: 0 1rem;
+      &:focus {
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background-color: $accentBg;
+        color: $black;
+        border: 0.1rem solid $secondary-color;
+      }
+      &:hover {
+        background-color: $accentBg;
+        color: $black;
+        border: 0.1rem solid $secondary-color;
+      }
+    }
+  }
+
+  /* Form */
+  .logInForm {
+    .errorMsg {
+      color: red;
+    }
+    h2 {
+      font-family: $sub-font;
+      text-align: center;
+      width: 100%;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+      border-bottom: 0.1rem groove gray;
+    }
+    width: 50%;
+    margin: auto;
+    .form-group {
+      margin-bottom: 1rem;
+      .form-control {
+        border-radius: unset;
+        &:focus {
+          border: none;
+          outline: none;
+          box-shadow: none;
+          color: $black;
+          border: 0.1rem solid $secondary-color;
+        }
+      }
+    }
+    .submitBtn {
+      background-color: $primary-color;
+      outline: none;
+      border: none;
+      border-radius: unset;
+      &:focus {
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background-color: $accentBg;
+        color: $black;
+        border: 0.1rem solid $secondary-color;
+      }
+      &:hover {
+        background-color: $accentBg;
+        color: $black;
+        border: 0.1rem solid $secondary-color;
+      }
+    }
+    .newAccount {
+      text-decoration: none;
+      margin-left: 1rem;
+      color: $black;
+      &:hover {
+        color: $accent;
+        border-bottom: 0.1rem solid $accent;
+      }
+    }
+  }
+}

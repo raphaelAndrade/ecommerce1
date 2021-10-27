@@ -1,0 +1,160 @@
+/* SHIPPING ADDRESS */
+
+.payment-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-gap: 1em;
+  grid-auto-rows: minmax(100px, auto);
+  margin: 0rem 20rem;
+}
+
+.contact-info {
+  width: 90%;
+  border: 1px solid darkgray;
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.payment-contact {
+  display: inline-flex;
+  width: 100%;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+}
+
+#shipTo-address {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  border: none;
+}
+
+.payment-contactText {
+  color: gray;
+}
+
+.payment-addressText {
+  margin: 0rem 1rem;
+}
+
+.payment-change-btn {
+  float: right;
+}
+
+.change-btn {
+  float: right;
+  color: gray;
+  border-style: none;
+  background-color: transparent;
+}
+
+.change-btn:hover {
+  text-decoration: underline;
+}
+
+.payment-address {
+  padding-top: 1rem;
+}
+
+.shippingText {
+  margin: 3rem 0rem;
+}
+
+/* SHIPPING METHOD */
+
+.shipping-container {
+  width: 40%;
+  border: 1px solid darkgray;
+  border-radius: 0.5rem;
+}
+
+.checkbox-shipping {
+  display: flex;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#checkbox-shipMethod {
+  border-bottom: none !important;
+}
+
+.checkbox-ship {
+  float: left;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.checkbox-post {
+  float: left;
+}
+
+.checkbox-price {
+  float: right;
+  font-weight: bold;
+}
+
+/* PAYMENT METHOD */
+
+.paymentMethod-container {
+  width: 90%;
+  border: 1px solid darkgray;
+  border-radius: 0.5rem;
+}
+
+.payment-method {
+  display: flex;
+  padding: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
+}
+
+.paymentName {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+/* CREDIT CARD DETAILS */
+
+.creditCard-details {
+  padding: 1rem;
+  background-color: #fafafa;
+}
+
+#creditCard {
+  margin-top: 1rem;
+}
+
+#noBorder {
+  border-bottom: none;
+}
+
+/* blling-address */
+
+.billing-address {
+  width: 90%;
+  border: 1px solid darkgray;
+  border-radius: 0.5rem;
+}
+
+#saveInfo{
+  margin-top: 3rem;
+  
+}
+
+/* SUMMARY */
+
+#summary{
+  margin-top: 3rem;
+}
+
+#payNow{
+  background-color: #30ba5b;
+}
+
+#payNow:hover{
+  background-color: #056420;
+}

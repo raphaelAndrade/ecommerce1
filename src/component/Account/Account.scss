@@ -1,0 +1,123 @@
+@import "../../colors";
+
+.newAccountContainer {
+  min-height: 90vh;
+  //padding-top: 60px;
+  /* account creation success */
+  .success {
+    font-family: $sub-font;
+    margin: auto;
+    margin-top: 1rem;
+    text-align: center;
+    width: 50%;
+    span {
+      color: $accent;
+    }
+  }
+  .goToHomeBtn {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding: 0.5rem;
+    color: $white;
+    background-color: $primary-color;
+    outline: none;
+    border: none;
+    border-radius: unset;
+    width: fit-content;
+    margin: auto;
+    margin-top: 1rem;
+    &:focus {
+      border: none;
+      outline: none;
+      box-shadow: none;
+      background-color: $accentBg;
+      color: $black;
+      border: 0.1rem solid $secondary-color;
+    }
+    &:hover {
+      background-color: $accentBg;
+      color: $black;
+      border: 0.1rem solid $secondary-color;
+    }
+  }
+
+  /* Form */
+  .accountForm {
+    .errorMsg {
+      color: red;
+    }
+    h2 {
+      font-family: $sub-font;
+      text-align: center;
+      width: 100%;
+      padding: 1rem 0;
+      margin-bottom: 2rem;
+      border-bottom: 0.1rem groove gray;
+    }
+    width: 50%;
+    margin: auto;
+    .form-group {
+      margin-bottom: 1rem;
+      .form-control {
+        border-radius: unset;
+        &:focus {
+          border: none;
+          outline: none;
+          box-shadow: none;
+          color: $black;
+          border: 0.1rem solid $secondary-color;
+        }
+      }
+    }
+    .btnRow {
+      width: 30vw;
+      margin: auto;
+      .createBtn {
+        background-color: $primary-color;
+        outline: none;
+        border: none;
+        border-radius: unset;
+        &:focus {
+          border: none;
+          outline: none;
+          box-shadow: none;
+          background-color: $accentBg;
+          color: $black;
+          border: 0.1rem solid $secondary-color;
+        }
+        &:hover {
+          background-color: $accentBg;
+          color: $black;
+          border: 0.1rem solid $secondary-color;
+        }
+      }
+      .goToHomeBtn {
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        padding: 0.5rem;
+        color: $white;
+        background-color: $primary-color;
+        outline: none;
+        border: none;
+        border-radius: unset;
+        margin: 0 1rem;
+        width: 10vw;
+        &:focus {
+          border: none;
+          outline: none;
+          box-shadow: none;
+          background-color: $accentBg;
+          color: $black;
+          border: 0.1rem solid $secondary-color;
+        }
+        &:hover {
+          background-color: $accentBg;
+          color: $black;
+          border: 0.1rem solid $secondary-color;
+        }
+      }
+    }
+  }
+}

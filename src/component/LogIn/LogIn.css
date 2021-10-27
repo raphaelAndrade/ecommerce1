@@ -1,0 +1,130 @@
+/* Color Palette */
+/* Font Palette */
+.loginContainer {
+  min-height: 90vh;
+  /* After logged in */
+  /* Form */
+}
+
+.loginContainer .welcome {
+  font-family: serif;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.loginContainer .welcome span {
+  color: #1a3a1cca;
+}
+
+.loginContainer .btnDiv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 20vw;
+  margin: auto;
+}
+
+.loginContainer .btnDiv .logOutBtn,
+.loginContainer .btnDiv .goToHomeBtn {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 0.5rem;
+  color: white;
+  background-color: #212121;
+  outline: none;
+  border: none;
+  border-radius: unset;
+  margin: 0 1rem;
+}
+
+.loginContainer .btnDiv .logOutBtn:focus,
+.loginContainer .btnDiv .goToHomeBtn:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #8b978bb0;
+  color: black;
+  border: 0.1rem solid #757575;
+}
+
+.loginContainer .btnDiv .logOutBtn:hover,
+.loginContainer .btnDiv .goToHomeBtn:hover {
+  background-color: #8b978bb0;
+  color: black;
+  border: 0.1rem solid #757575;
+}
+
+.loginContainer .logInForm {
+  width: 50%;
+  margin: auto;
+}
+
+.loginContainer .logInForm .errorMsg {
+  color: red;
+}
+
+.loginContainer .logInForm h2 {
+  font-family: serif;
+  text-align: center;
+  width: 100%;
+  padding: 1rem 0;
+  margin-bottom: 2rem;
+  border-bottom: 0.1rem groove gray;
+}
+
+.loginContainer .logInForm .form-group {
+  margin-bottom: 1rem;
+}
+
+.loginContainer .logInForm .form-group .form-control {
+  border-radius: unset;
+}
+
+.loginContainer .logInForm .form-group .form-control:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: black;
+  border: 0.1rem solid #757575;
+}
+
+.loginContainer .logInForm .submitBtn {
+  background-color: #212121;
+  outline: none;
+  border: none;
+  border-radius: unset;
+}
+
+.loginContainer .logInForm .submitBtn:focus {
+  border: none;
+  outline: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #8b978bb0;
+  color: black;
+  border: 0.1rem solid #757575;
+}
+
+.loginContainer .logInForm .submitBtn:hover {
+  background-color: #8b978bb0;
+  color: black;
+  border: 0.1rem solid #757575;
+}
+
+.loginContainer .logInForm .newAccount {
+  text-decoration: none;
+  margin-left: 1rem;
+  color: black;
+}
+
+.loginContainer .logInForm .newAccount:hover {
+  color: #1a3a1cca;
+  border-bottom: 0.1rem solid #1a3a1cca;
+}
+/*# sourceMappingURL=LogIn.css.map */

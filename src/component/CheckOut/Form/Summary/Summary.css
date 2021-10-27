@@ -1,0 +1,65 @@
+/* SUMMARY */
+
+.summary-text {
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 1rem;
+  }
+  
+  .subtotal-container {
+    width: 95%;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+  
+  .subtotal {
+    margin-left: 1rem;
+    color: gray;
+  }
+  
+  .money {
+    font-weight: bold;
+    float: right;
+    margin-left: 20rem;
+    font-size: 1.1rem;
+  }
+  
+  .total-money {
+    font-weight: bold;
+    float: right;
+    margin-left: 18rem;
+    font-size: 1.7rem;
+  }
+  
+  .currency {
+    font-size: 1rem;
+    font-weight: normal;
+    color: gray;
+    margin-right: 1rem;
+  }
+  
+  .proceed-btn {
+    float: right;
+    width: 100%;
+    background-color: #212121;
+    color: white;
+    border-color: transparent;
+    border-radius: 0.5rem;
+    padding: .5rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .proceed-btn:hover {
+    cursor: pointer;
+    background-color: #056420;
+    border: 1px solid #056420;
+    color: white;
+  }
+
+  /* COVID */
+
+.covid{
+  margin-top: 6rem;
+}  
+  

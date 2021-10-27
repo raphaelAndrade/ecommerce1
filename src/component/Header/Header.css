@@ -1,0 +1,111 @@
+/* Color Palette */
+/* Font Palette */
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 0.1rem double #8b978bb0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  height: 60px;
+  background-color: white;
+  font-family: sans-serif;
+  /* Title */
+  /* Category selection link */
+  /* Nav bar */
+}
+
+header .siteTitle {
+  margin-left: 1rem;
+}
+
+header .siteTitle a {
+  text-decoration: none;
+  color: #212121;
+  font-family: "HCo Chronicle Display", Georgia, Times, "Times New Roman", serif;
+}
+
+header .siteTitle a:hover {
+  color: #1a3a1cca;
+}
+
+header .siteTitle a .logo {
+  width: 55px;
+  height: 40px;
+}
+
+header .categoryPanel {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  background-color: white;
+  border-bottom: 0.1rem groove #8b978bb0;
+}
+
+header .categoryPanel .categoryLink {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  text-decoration: none;
+  padding: 1rem;
+  text-align: center;
+  display: block;
+  color: #757575;
+}
+
+header .categoryPanel .categoryLink:hover {
+  color: #212121;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header .navBar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+
+header .navBar ul li {
+  margin-right: 2.5rem;
+  cursor: pointer;
+}
+
+header .navBar ul li:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-bottom: 0.1rem solid #1a3a1cca;
+  padding-bottom: 0.5rem;
+  color: #1a3a1cca;
+}
+
+header .navBar ul li a {
+  text-decoration: none;
+  margin: 1rem;
+  color: #212121;
+  margin: auto;
+}
+
+header .navBar ul li a:hover {
+  color: #1a3a1cca;
+}
+/*# sourceMappingURL=Header.css.map */

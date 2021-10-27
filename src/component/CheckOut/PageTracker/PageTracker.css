@@ -1,0 +1,47 @@
+/* PAGE TRACKER */
+
+.page-tracker {
+  display: flex;
+  border-top: 1px solid lightgray;
+  padding: 0.5rem;
+  width: 100%;
+  height: 5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.tracker-text {
+  margin: 0.5rem;
+}
+
+/* ON SHIPPING */
+
+#ship {
+  border-right: 1px solid gray;
+  padding-right: 1rem;
+}
+
+/* #ship:hover{
+  cursor: pointer;
+  text-decoration: underline;
+} */
+
+#pay {
+  color: gray;
+}
+
+/* ON PAYMENT */
+
+#ship2 {
+  border-left: 1px solid gray;
+  padding-left: 1rem;
+}
+
+#pay2 {
+  color: gray;
+}
+
+#pay2:hover{
+  cursor: pointer;
+  text-decoration: underline;
+}

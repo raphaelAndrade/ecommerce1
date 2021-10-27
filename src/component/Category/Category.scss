@@ -1,0 +1,84 @@
+@import "../../colors";
+
+.categoryContainer {
+  min-height: 90vh;
+  .top {
+    position: relative;
+    .title {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background-color: $blackTr;
+      color: $white;
+      width: 50%;
+      margin-left: 2rem;
+      height: 60%;
+      line-height: 33vh;
+      text-transform: capitalize;
+      font-family: $sub-font;
+      text-align: center;
+      padding: 1rem 0;
+      border-bottom: 0.1rem double $accentBg;
+      font-size: 4rem;
+    }
+    .topPhoto {
+      width: 100%;
+      height: 60vh;
+      margin-bottom: 3rem;
+    }
+  }
+  .row {
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    grid-gap: 1rem;
+    margin-bottom: 2rem;
+    .photoCol {
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .imgCol {
+      height: 100%;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .titleCol {
+      height: 100%;
+      text-align: center;
+      background-color: $accentBg;
+      color: $white;
+      .titleRow {
+        width: 100%;
+        position: relative;
+        top: 50%;
+        padding: 5rem 1rem;
+        transform: translateY(-50%);
+        grid-gap: unset;
+        p {
+          margin-top: 1rem;
+          font-size: 1.5rem;
+        }
+        .viewMoreBtn {
+          display: block;
+          background-color: $blackTr;
+          color: $white;
+          padding: 0.6rem;
+          width: 10vw;
+          text-decoration: none;
+          margin: auto;
+          text-align: center;
+          &:hover {
+            background-color: $white;
+            color: $blackTr;
+            border: 0.1rem solid $accent;
+          }
+        }
+      }
+    }
+  }
+}

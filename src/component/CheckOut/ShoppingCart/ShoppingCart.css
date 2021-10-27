@@ -1,0 +1,66 @@
+/* CART */
+.cart-title {
+    margin: 3rem;
+    text-align: center;
+    font-weight: normal;
+  }
+  
+  .shopping-cart-container {
+    margin: 3rem;
+    padding-bottom: 3rem;
+    text-align: center;
+  }
+  
+  .productList-container {
+
+    display: flex;
+    margin: 0rem 20rem;
+    margin-top: 5rem;
+  }
+  
+  .image {
+    width: 180px;
+    height: 225px;
+    margin-right: 2rem;
+    background-color: lightgray;
+  }
+  
+  .product-description {
+    width: 423px;
+    height: 225px;
+    margin-right: 3rem;
+    text-align: justify;
+  }
+  
+  .product-text {
+    color: darkgray;
+  }
+  
+  .description-text {
+    color: #005b8d;
+  }
+  
+  .quantity {
+    width: 144.77px;
+    height: 225px;
+    margin-right: 5rem;
+  }
+  
+  .quantity-number {
+    margin: 1rem;
+    border-bottom: 1px solid gray;
+  }
+  
+  .total {
+    margin-right: 5.3rem;
+  }
+  
+  .trashBin {
+    width: 12.25px;
+    height: 14px;
+    margin: auto;
+  }
+
+  .trashBin:hover{
+    cursor: pointer;
+  }

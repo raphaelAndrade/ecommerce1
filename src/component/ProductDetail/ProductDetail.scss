@@ -1,0 +1,79 @@
+@import "../../colors";
+
+
+.mainContainer {
+  // background-color: cadetblue; //I need to delete it
+  font-family: $main-font;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 0;
+  padding: 1.5rem;
+
+  .imgContainer {
+    // position: sticky;
+    width:50%;
+  }
+
+  img {
+    height: auto;
+    width: 600px;
+    margin-right: 3rem;
+  }
+
+  .detailsContainer{
+    display:flex;
+    flex-flow: column;
+    padding: 0 1.5rem;
+    // justify-content: space-around;
+
+    h2 {
+      font-family: $sub-font;
+      color: $secondary-hover;
+
+      &:hover {
+        color: #056420;
+      }
+    }
+
+    p {
+      font-size: $small-fontsize;
+    }
+
+    h5 {
+      font-weight: bold;
+      padding: 1.5rem 0;
+    }
+
+    h6 {
+      font-size: $medium-fontsize;
+    }
+
+    button {
+      background-color: #000000;
+      color: #ffffff;
+      font-size: $medium-fontsize;
+      padding: 8px 24px;
+      border: 1px solid transparent;
+      margin-bottom: 2.5rem;
+
+      &:hover {
+        background-color: $primary-hover;
+      }
+    }
+
+    .description {
+      background-color: #f0f0f0;
+      padding: 1.5rem 2rem;
+    }
+
+    span {
+      font-size: $medium-fontsize;
+      color: $secondary-color;
+    }
+
+    p {
+      margin-top: 1rem;
+    }
+  }
+}

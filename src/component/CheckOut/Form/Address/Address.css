@@ -1,0 +1,27 @@
+/* Address */
+
+.address-container {
+    margin-top: 4rem;
+  }
+  
+  .shippingAddress{
+    margin-bottom: 2rem;
+  }
+  
+  .address-input {
+    width: 40%;
+    height: 2.5rem;
+    padding: .5rem !important;
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .country-input {
+    width: 40%;
+    height: 2.5rem;
+    padding: 0.3rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+  }
+  

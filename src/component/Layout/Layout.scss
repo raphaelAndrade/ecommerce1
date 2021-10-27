@@ -1,0 +1,74 @@
+@import "_colors";
+
+
+footer {
+
+  font-size: $small-fontsize;
+
+  .mainFooter {
+    font-family: $main-font;
+    margin: 0 5%;
+    padding: 32px 0px;
+    color: #212121;
+    display: grid;
+    grid-template:
+    "box1 ... box2 box3 box4"
+    / auto  2fr 1fr 1fr 1fr; 
+    gap: 3px;
+
+    .box1 {
+      grid-area: box1;
+    }
+
+    .box2 {
+      grid-area: box2;
+    }
+
+    .box3 {
+      grid-area: box3;
+    }
+
+    .box4 {
+      grid-area: box4;
+    }
+
+    h3 {
+      font-family: $sub-font;
+      font-size: $big-fontsize + 0.2rem;
+    }
+
+    h4 {
+      color: #757575;
+      font-family: $sub-font;
+      font-size: $big-fontsize;
+    }
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        list-style: none;
+        display: inline-block;
+        margin: 0 5px;
+
+        a {
+          color: #212121;
+          text-decoration: none;
+          font-size: 1.5rem;
+
+          &:hover {
+            color: #5e595952;
+          }
+        }
+      }
+    }
+  }
+
+  .rowFooter {
+    color: #ffff;
+    background-color: #616161;
+    text-align: center;
+    padding: 5px 0px;
+  }
+}

@@ -1,0 +1,70 @@
+footer {
+  font-size: 0.8rem;
+}
+
+footer .mainFooter {
+  font-family: sans-serif;
+  margin: 0 5%;
+  padding: 32px 0px;
+  color: #212121;
+  display: -ms-grid;
+  display: grid;
+  grid-template: "box1 ... box2 box3 box4" / auto  2fr 1fr 1fr 1fr;
+  gap: 3px;
+}
+
+footer .mainFooter .box1 {
+  grid-area: box1;
+}
+
+footer .mainFooter .box2 {
+  grid-area: box2;
+}
+
+footer .mainFooter .box3 {
+  grid-area: box3;
+}
+
+footer .mainFooter .box4 {
+  grid-area: box4;
+}
+
+footer .mainFooter h3 {
+  font-family: serif;
+  font-size: 1.2rem;
+}
+
+footer .mainFooter h4 {
+  color: #757575;
+  font-family: serif;
+  font-size: 1rem;
+}
+
+footer .mainFooter ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer .mainFooter ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 5px;
+}
+
+footer .mainFooter ul li a {
+  color: #212121;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+footer .mainFooter ul li a:hover {
+  color: #5e595952;
+}
+
+footer .rowFooter {
+  color: #ffff;
+  background-color: #616161;
+  text-align: center;
+  padding: 5px 0px;
+}
+/*# sourceMappingURL=Layout.css.map */
